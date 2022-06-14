@@ -4,8 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start:server": "nodemon src/webapi.js",
-    "start:consumer": "nodemon src/worker.js"
+    "start:server": "node src/webapi.js",
+    "dev:server": "nodemon src/webapi.js",
+    "start:consumer": "node src/worker.js",
+    "dev:consumer": "nodemon src/worker.js"
   },
   "dependencies": {
     "amqplib": "^0.10.0",
